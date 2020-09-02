@@ -43,7 +43,7 @@ export default function Home({ data }) {
 
 // WEATHER API 
 const [weather,setWeather] = useState([])
-  const APIKEY = '0b19f325bc0d435df2d6ef551d0c5e32'
+  const APIKEY = `${APIKEY}`
 
   async function fetchData(e) {
     const city = e.target.elements.city.value
