@@ -1,0 +1,80 @@
+{
+  "./DailyMotion": [
+    {
+      "id": "./node_modules/react-player/lazy/players/DailyMotion.js",
+      "file": "static/chunks/reactPlayerDailyMotion.js"
+    }
+  ],
+  "./Facebook": [
+    {
+      "id": "./node_modules/react-player/lazy/players/Facebook.js",
+      "file": "static/chunks/reactPlayerFacebook.js"
+    }
+  ],
+  "./FilePlayer": [
+    {
+      "id": "./node_modules/react-player/lazy/players/FilePlayer.js",
+      "file": "static/chunks/reactPlayerFilePlayer.js"
+    }
+  ],
+  "./Mixcloud": [
+    {
+      "id": "./node_modules/react-player/lazy/players/Mixcloud.js",
+      "file": "static/chunks/reactPlayerMixcloud.js"
+    }
+  ],
+  "./Preview": [
+    {
+      "id": "./node_modules/react-player/lazy/Preview.js",
+      "file": "static/chunks/reactPlayerPreview.js"
+    }
+  ],
+  "./SoundCloud": [
+    {
+      "id": "./node_modules/react-player/lazy/players/SoundCloud.js",
+      "file": "static/chunks/reactPlayerSoundCloud.js"
+    }
+  ],
+  "./Streamable": [
+    {
+      "id": "./node_modules/react-player/lazy/players/Streamable.js",
+      "file": "static/chunks/reactPlayerStreamable.js"
+    }
+  ],
+  "./Twitch": [
+    {
+      "id": "./node_modules/react-player/lazy/players/Twitch.js",
+      "file": "static/chunks/reactPlayerTwitch.js"
+    }
+  ],
+  "./Vidyard": [
+    {
+      "id": "./node_modules/react-player/lazy/players/Vidyard.js",
+      "file": "static/chunks/reactPlayerVidyard.js"
+    }
+  ],
+  "./Vimeo": [
+    {
+      "id": "./node_modules/react-player/lazy/players/Vimeo.js",
+      "file": "static/chunks/reactPlayerVimeo.js"
+    }
+  ],
+  "./Wistia": [
+    {
+      "id": "./node_modules/react-player/lazy/players/Wistia.js",
+      "file": "static/chunks/reactPlayerWistia.js"
+    }
+  ],
+  "./YouTube": [
+    {
+      "id": "./node_modules/react-player/lazy/players/YouTube.js",
+      "file": "static/chunks/reactPlayerYouTube.js"
+    }
+  ],
+  "./dev/noop": [
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js"
+    }
+  ]
+}

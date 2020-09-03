@@ -14,21 +14,6 @@ import NewForm from '../components/NewForm'
 
 
 
-// YOUTUBE API
-const YOUTUBE_PLAYLIST_ITEMS_API = 'https://www.googleapis.com/youtube/v3/playlistItems';
-
-export async function getServerSideProps() {
-  const res = await fetch(`${YOUTUBE_PLAYLIST_ITEMS_API}?part=snippet&maxResults=20&playlistId=PLEFeVUxfZMzG6S5IbN-GuJKd3841EaqkM&key=${process.env.YOUTUBE_API_KEY}`)
-  const data = await res.json();
-  return {
-    props: {
-      data
-    }
-  }
-}
-
-
-
 export default function Home({ data }) {
 
 
@@ -41,9 +26,28 @@ export default function Home({ data }) {
 })
 
 
+
+
+
+// // YOUTUBE API
+// const YOUTUBE_PLAYLIST_ITEMS_API = 'https://www.googleapis.com/youtube/v3/playlistItems';
+
+// export async function getServerSideProps() {
+//   const res = await fetch(`${YOUTUBE_PLAYLIST_ITEMS_API}?part=snippet&maxResults=20&playlistId=PLEFeVUxfZMzG6S5IbN-GuJKd3841EaqkM&key=${process.env.YOUTUBE_API_KEY}`)
+//   const data = await res.json();
+//   return {
+//     props: {
+//       data
+//     }
+//   }
+// }
+
+
+
 // WEATHER API 
 const [weather,setWeather] = useState([])
-  const APIKEY = `${APIKEY}`
+  // const APIKEY = `${APIKEY}`
+  const  APIKEY = '0b19f325bc0d435df2d6ef551d0c5e32'
 
   async function fetchData(e) {
     const city = e.target.elements.city.value
@@ -97,7 +101,7 @@ const [weather,setWeather] = useState([])
      </div>
 
     {/* <YouTubePlayList /> */}
-    <ul className={styles.grid}>
+    {/* <ul className={styles.grid}>
   {data.items.map(({ id, snippet = {} }) => {
     const { title, thumbnails = {}, resourceId = {} } = snippet;
     const { medium } = thumbnails;
@@ -112,8 +116,8 @@ const [weather,setWeather] = useState([])
         </a>
       </li>
     )
-  })}
-</ul>
+  })} */}
+{/* </ul> */}
   
 <hr></hr>
 

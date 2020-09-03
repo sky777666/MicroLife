@@ -5,16 +5,193 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+/*  CARD GLOBAL HOVERS ----------- */
+/* 
+.section {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  display: flex;
+  /* justify-content: space-between; 
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  /* width: fit-content; 
+  width: 1300px;
+  height:1300px;
+  background-color: #00d8ff;
+}
+
+img {
+  display: flex;
+  height: 110%;
+  transition: all 0.3s;
+  object-fit: cover;
+}
+
+P{
+  text-align: center;
+  padding:3px;
+  line-height: 1.6;
+  
+}
+
+/* Card 3 Styles  */
+/* CARD GENERAL 
+.container1 {
+  /* width: 500px;
+  height: 500px; 
+  width: 100vw;
+  height: 100vh;;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  display: flex;
+}
+
+img {
+  height: 110%;
+  transition: all 0.3s;
+  
+}
+
+.caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 0;
+  transition: all 0.3s;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.caption h1 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.caption p {
+  font-size: 18px;
+  text-transform: capitalize;
+}
 
 
+
+
+.container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin: 30px;
+  display: flex;
+}
+
+.container2 {
+  width: 500px;
+  height: 500px;
+  border-radius: 75px;
+  margin: 30px;
+  display: flex;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.text{
+  padding-top: 10% ;
+}
+button{
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+button:hover {
+background-color: lightseagreen;
+}
+
+.container  .caption {
+  background-color: black;
+  transform: translateX(-100%);
+  opacity: 1;
+}
+
+.container :hover .caption {
+  transform: translateX(0);
+}
+
+.container :hover img {
+  transform: translateX(100%);
+}
+
+
+
+
+.container  .caption {
+  background-color: black;
+  transform: translateX(-100%);
+  opacity: 1;
+}
+
+.container :hover .caption {
+  transform: translateX(0);
+}
+
+.container :hover img {
+  transform: translateX(100%);
+}
+
+/*  CARD 1  */
+/* CARD 3 */
+.container#card1 .caption {
+  background-color: black;
+  transform: translateX(-100%);
+  opacity: 1;
+}
+
+.container#card1:hover .caption {
+  transform: translateX(0);
+}
+
+.container#card1:hover img {
+  transform: translateX(100%);
+}
+
+
+
+/* CARD 3 */
+.container#card3 .caption {
+  background-color: black;
+  transform: translateX(-100%);
+  opacity: 1;
+}
+
+.container#card3:hover .caption {
+  transform: translateX(0);
+}
+
+.container#card3:hover img {
+  transform: translateX(100%);
+} */
+
+/* 
 a {
   color: inherit;
   text-decoration: none;
-}
+} */
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 p{
   color: white;
