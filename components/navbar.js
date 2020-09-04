@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Navbar = () => (
   <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
-    <div className="container">
+    {/* <div className="container"> */}
       <a className="navbar-brand" href="#">MicroCosm</a>
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav ml-auto">
@@ -19,7 +19,7 @@ const Navbar = () => (
           </li>
         </ul>
       </div>
-    </div>
+    {/* </div> */}
   </nav>
 );
 

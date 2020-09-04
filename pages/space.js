@@ -11,7 +11,7 @@ const Space = () => {
 
 <div class="section">
 <Fade direction={"left"} delay={1000} >
-<div class="container0" id="card1">
+<div class="container" id="card1">
         <img src="https://cdn.pixabay.com/photo/2016/01/08/11/57/butterfly-1127666_1280.jpg" alt="" />
         <div class="caption">
             <h1>MicroCosm</h1>
@@ -22,7 +22,7 @@ const Space = () => {
 
 
 <Fade direction={"right"} delay={1000} >
-<div class="container1" id="card3">
+<div class="container" id="card3">
         <img src="https://i.pinimg.com/564x/32/a5/a0/32a5a0bcfc8291232e9d9a1d6d179234.jpg" alt="" />
         <div class="caption">
             <h1>MicroCosm</h1>

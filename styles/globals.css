@@ -37,8 +37,33 @@ P{
   
 }
 
-/* Card 3 Styles  */
+
 /* CARD GENERAL */
+
+
+.container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin: 30px;
+  display: flex;
+}
+
+.container2 {
+  width: 500px;
+  height: 500px;
+  border-radius: 75px;
+  margin: 30px;
+  display: flex;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.text{
+  padding-top: 10% ;
+} 
+
 .container1 {
    width: 500px;
   height: 500px; 
@@ -85,28 +110,6 @@ img {
 
 
 
-.container0 {
-  width: 500px;
-  height: 500px;
-  position: relative;
-  overflow: hidden;
-  margin: 30px;
-  display: flex;
-}
-
-.container2 {
-  width: 500px;
-  height: 500px;
-  border-radius: 75px;
-  margin: 30px;
-  display: flex;
-  background-color: white;
-  color: black;
-  text-align: center;
-}
-.text{
-  padding-top: 10% ;
-} 
 button{
   width: 100px;
   height: 50px;
@@ -183,15 +186,15 @@ background-color: lightseagreen;
   transform: translateX(100%);
 } 
 
-/* 
+
 a {
   color: inherit;
   text-decoration: none;
-} */
+} 
 
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 
 p{
   color: white;
