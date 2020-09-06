@@ -38,8 +38,34 @@ const About = () => {
             </div>
             <div>
                 <CardSmall />
+               
             </div>
             
+ {/* <section style={{
+     width: '100%',
+     hieght: '800px',
+     bottom: '0%',
+     backgroundColor: 'white',
+     position: "absolute",
+     zIndex: '-1',
+     padding: '30px',
+    
+ }}>
+  <div style={{
+      height: '400px',
+      width: '300px',
+      left: '40%',
+      position:'relative',
+
+  }}>
+  <img src="https://i.imgur.com/lVzBS9c.jpg" />
+  </div>
+
+  </section> */}
+
+
+
+
         </div>
         </Layout>
     );

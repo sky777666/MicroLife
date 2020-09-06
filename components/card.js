@@ -14,12 +14,16 @@ const Card = () => {
             <img src="https://source.unsplash.com/QK-wGoXoojA/400x400"></img>
         </div>
        
-        <div className={styles.upSplash}>
+        {/* <div className={styles.upSplash}>
             <img src="https://source.unsplash.com/_T1jj2L60_c/400x400"></img>
+        </div> */}
+
+        <div className={styles.upSplash}>
+            <img src="https://source.unsplash.com/400x400?ocean,fish"></img>
         </div>
 
         <div className={styles.upSplash}>
-            <img src="https://source.unsplash.com/SGXIUN4k7_4/400x400"></img>
+            <img src="https://source.unsplash.com/400x400?squid,sea"></img>
         </div>
 
 

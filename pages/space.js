@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from '../styles/Home.module.css'
 import { Slide, Fade } from "react-awesome-reveal";
-
+import Layout from '../components/Layout'
 
 
 const Space = () => {
 
 
     return (
-
+<Layout>
 <div class="section">
 <Fade direction={"left"} delay={1000} >
 <div class="container" id="card1">
@@ -67,7 +67,7 @@ const Space = () => {
 
 
     </div>
-    
+    </Layout>
     )
 };
 
