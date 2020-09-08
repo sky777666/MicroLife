@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import NavBar2 from '../components/NavBar2'
 
 
 const Navbar = () => (
@@ -7,25 +7,48 @@ const Navbar = () => (
     {/* <div className="container"> */}
       <a className="navbar-brand" href="#">MicroCosm</a>
       <div className="collapse navbar-collapse">
+       
         <ul className="navbar-nav ml-auto">
+         
           <li className="nav-item">
+          
             <Link href="/"><a className="nav-link">Home</a></Link>
           </li>
+         
+
           <li className="nav-item">
             <Link href="/welcome"><a className="nav-link">Welcome</a></Link>
           </li>
-
-
           <li className="nav-item">
             <Link href="/about"><a className="nav-link">About</a></Link>
           </li>
+
+          <li className="nav-item">
+            <Link href="/protozoa"><a className="nav-link">Protozoa</a></Link>
+          </li>
+          <li className="nav-item">
+            <Link href="/algae"><a className="nav-link">Algae</a></Link>
+          </li>
+          <li className="nav-item">
+            <Link href="/bacterium"><a className="nav-link">Bacterium</a></Link>
+          </li>
+          <li className="nav-item">
+            <Link href="/virus"><a className="nav-link">virus</a></Link>
+          </li>
+          <li className="nav-item">
+            <Link href="/fungi"><a className="nav-link">fungi</a></Link>
+          </li>
+
+
+
           <li className="nav-item">
             <Link href="/contact"><a className="nav-link">Contact</a></Link>
           </li>
+        
         </ul>
-      </div>
-    {/* </div> */}
+      </div> 
   </nav>
+ 
 );
 
 

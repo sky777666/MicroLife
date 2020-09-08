@@ -1,72 +1,38 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from '../styles/Home.module.css'
-import { Slide, Fade } from "react-awesome-reveal";
+import NasaPhoto from '../components/NasaPhoto'
 import Layout from '../components/Layout'
+
 
 
 const Space = () => {
 
 
+  useEffect(() => {
+    document.body.style.backgroundColor = '#4a5f6b'
+    
+  })
+
+
     return (
 <Layout>
-<div class="section">
-<Fade direction={"left"} delay={1000} >
-<div class="container" id="card1">
-        <img src="https://cdn.pixabay.com/photo/2016/01/08/11/57/butterfly-1127666_1280.jpg" alt="" />
-        <div class="caption">
-            <h1>MicroCosm</h1>
-            <p>Fullstack Server Side Rendering with Next.js the most most advanced React framework. </p>
-        </div>
-    </div>
-    </Fade>
-
-
-<Fade direction={"right"} delay={1000} >
-<div class="container" id="card3">
-        <img src="https://i.pinimg.com/564x/32/a5/a0/32a5a0bcfc8291232e9d9a1d6d179234.jpg" alt="" />
-        <div class="caption">
-            <h1>MicroCosm</h1>
-            <p>Fullstack Server Side Rendering with Next.js the most most advanced React framework. </p>
-            
-        </div>
-    </div>
-    </Fade>
-
-    
-    <Slide direction={"left"} delay={1000} >
-<div class="container2" id="card2">
-        <div class="text">
-            <h1>MicroCosm</h1>
-            <h4>Fullstack Server Side Rendering with Next.js the most most advanced React framework. </h4>
-            <h4>This application was created tThis application was created to inspire a new generation of Microbiologist 
-                and get kids involved in the wonders of the Microscopic world around them. 
-                Some of the technologies it includes are HTML, CSS, React, Next.js, JavaScript, 
-                React Animations, SQLite DB, and Prisma. </h4>
-                <button>Play Here</button>
-                {/* <button style={{
-                width: '100px',
-                height: '50px',
-                backgroundColor: 'green',
-                borderRadius: '10%',
-                padding: '10px',
-            }}>Play Here</button> */}
-        </div>
-    </div>
-    </Slide>
-{/* 
-<Slide direction={"left"} delay={1000} >
-<div class="container0" id="card3">
-        <img src="https://i.pinimg.com/564x/9f/0f/cd/9f0fcd79b782b7cb0d1ea4e52dccd843.jpg" alt="" />
-        <div class="caption">
-            <h1>MicroCosm</h1>
-            <p>Fullstack Server Side Rendering with Next.js the most most advanced React framework. </p>
-        </div>
-    </div>
-    </Slide> */}
+<div>
+<NasaPhoto />
+</div>
+<div>
+    <div> <img src=" " /> </div>
+    <div> <img src="https://cdn.mos.cms.futurecdn.net/iT5HVBwBVhTd5yjkn2EM3d-650-80.jpg.webp " /> <h4>In 1996, researchers led by David McKay, Everett Gibson and Kathie Thomas-Keprta from NASA's Johnson Space Center in Houston suggested that they might have found microbial fossils in a meteorite from Mars. The claim ignited a scientific controversy that lingers to this day. </h4></div>
  
+<div><img src="http://cosmology.com/images/GusevCrater1.jpg" /> <h1>Growth of what may be sulfide-reducing bacteria</h1></div>
+ 
+ <h4>objective of the current NASA rover program was to find and determine the location of Martian organism for later transport back to Earth. An examination of 40 photos taken by the NASA Mars' rovers Curiosity and Opportunity, reveal evidence indicative of moisture and biology on the Red Planet, including the growth and shrinkage of organisms resembling lichens, fungi, mushrooms, and algae. In several photos the rover's metal wheels are caked with clumps of Martian soil which indicates the presence of moisture thereby making adhesion possible, whereas the interior of the wheel wells are caked with ice or fungi. </h4>
+  </div>
 
-
-    </div>
+    <div> <img src=" http://cosmology.com/images/JosephFigure25Mars.jpg" /> </div>
+    <div> <img src="http://cosmology.com/images/Sol528530.jpg " /> 
+    <h4>Figure 17: Sol 528 (left) Sol 530. Photos of the same outcrop, just two days apart, demonstrates that the specimens have decreased in size and have all but disappeared (photo credit, NASA.</h4>
+  </div>
+   
     </Layout>
     )
 };

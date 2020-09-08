@@ -23,7 +23,7 @@ const Card = () => {
         </div>
 
         <div className={styles.upSplash}>
-            <img src="https://source.unsplash.com/400x400?squid,sea"></img>
+            <img src="https://source.unsplash.com/400x400?ocean,sea"></img>
         </div>
 
 

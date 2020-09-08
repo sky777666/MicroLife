@@ -2,7 +2,6 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React, { useEffect, useState } from 'react'
 import Layout from '../components/Layout'
-import NasaPhoto from '../components/NasaPhoto'
 import Card from '../components/card'
 import Form from '../components/Form';
 import Weather from '../components/Weather';
@@ -10,7 +9,7 @@ import Fetch from 'isomorphic-unfetch';
 import Footer from '../components/Footer'
 import YouTubePlayList from '../components/YoutubePlayList'
 import NewForm from '../components/NewForm'
-
+import ReactPlayer from 'react-player/'
 
 
 
@@ -83,6 +82,18 @@ const [weather,setWeather] = useState([])
 
   return (
 <Layout>
+    <div style ={{
+      display: "flex",
+      alignContent: "center",
+      position: "relative",
+      left: '20%',
+      width: "100%",
+    }}>
+    <ReactPlayer url="https://www.youtube.com/watch?v=JZjzQhFG6Ec&t=132s" controls={true} loop ={true} muted={false} autoplay={false} background={true} playing={false} width='700px' height='500px'  />
+    </div>
+
+
+
     <div className={styles.wrapper}>
       
             <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet" />
@@ -93,9 +104,7 @@ const [weather,setWeather] = useState([])
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <div>
-      <NasaPhoto />
-      </div>
+   
      <div>
        <Card />
      </div>
@@ -137,8 +146,7 @@ const [weather,setWeather] = useState([])
       {console.log(weather.data)}
     </div> 
 
-
-
+    
       </main>
 </div>
 
