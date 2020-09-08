@@ -33,6 +33,8 @@ const Space = () => {
     <h4>Figure 17: Sol 528 (left) Sol 530. Photos of the same outcrop, just two days apart, demonstrates that the specimens have decreased in size and have all but disappeared (photo credit, NASA.</h4>
   </div>
    
+
+   <div></div>
     </Layout>
     )
 };
