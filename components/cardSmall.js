@@ -22,7 +22,7 @@ const CardSmall = () => {
         <Fade direction={"left"} delay={1000} fraction={0}> 
         <div> <img src="https://i.imgur.com/lVzBS9c.jpg" height="400px" width="300px"/></div>
         </Fade>
-    // </div>
+     </div>
     );
 };
 
