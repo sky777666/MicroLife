@@ -6,12 +6,13 @@ import NavBar2 from '../components/NavBar2'
 const Layout = (props) => (
     
 
-        <div style={{
-            display: "flex",
-            alignContent: "center",
-            flexWrap: " wrap",
+        // <div style={{
+        //     display: "flex",
+        //     alignContent: "center",
+        //     flexWrap: " wrap",
             
-        }}>
+        // }}>
+        <div>
             <Head>
                 <title>MicroCosim</title>
                 <link rel="stylesheet"

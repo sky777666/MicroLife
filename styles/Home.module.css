@@ -11,6 +11,8 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  padding-top: 90px;
+ 
 }
 
 .navbar {
@@ -188,7 +190,7 @@
 }
 
 
-.cardSmall{
+/* .cardSmall2{
   height: 720px;
   width: 100vw;
   position: absolute;
@@ -197,14 +199,34 @@
   justify-content: center;
   flex-wrap: wrap;
   
-}
+} */
 
-.upSplash{
-  padding:20px;
+.upSplash2{
+  padding:10px;
   height: 300px;
   width: 500px;
   position: relative;
   left: 35%;
+  
+}
+
+.cardSmall{
+
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  object-fit: cover;
+  padding:30px;
+  
+}
+
+.upSplash{
+ display: flex;
+ justify-content: space-evenly;
+  position: relative;
+  padding: 20px;
+
   
 }
 

@@ -26,23 +26,6 @@ export default function Home({ data }) {
 
 
 
-
-
-// // YOUTUBE API
-// const YOUTUBE_PLAYLIST_ITEMS_API = 'https://www.googleapis.com/youtube/v3/playlistItems';
-
-// export async function getServerSideProps() {
-//   const res = await fetch(`${YOUTUBE_PLAYLIST_ITEMS_API}?part=snippet&maxResults=20&playlistId=PLEFeVUxfZMzG6S5IbN-GuJKd3841EaqkM&key=${process.env.YOUTUBE_API_KEY}`)
-//   const data = await res.json();
-//   return {
-//     props: {
-//       data
-//     }
-//   }
-// }
-
-
-
 // WEATHER API 
 const [weather,setWeather] = useState([])
   // const APIKEY = `${APIKEY}`
@@ -77,9 +60,6 @@ const [weather,setWeather] = useState([])
       )}
   }
 
-
-
-
   return (
 <Layout>
     <div style ={{
@@ -88,6 +68,7 @@ const [weather,setWeather] = useState([])
       position: "relative",
       left: '20%',
       width: "100%",
+      padding:"70px",
     }}>
     <ReactPlayer url="https://www.youtube.com/watch?v=JZjzQhFG6Ec&t=132s" controls={true} loop ={true} muted={false} autoplay={false} background={true} playing={false} width='700px' height='500px'  />
     </div>
@@ -109,24 +90,7 @@ const [weather,setWeather] = useState([])
        <Card />
      </div>
 
-    {/* <YouTubePlayList /> */}
-    {/* <ul className={styles.grid}>
-  {data.items.map(({ id, snippet = {} }) => {
-    const { title, thumbnails = {}, resourceId = {} } = snippet;
-    const { medium } = thumbnails;
-
-    return (
-      <li key={id} className={styles.card}>
-        <a href={`https://www.youtube.com/watch?v=${resourceId.videoId}`}>
-          <p>
-            <img width={medium.width} height={medium.height} src={medium.url} alt="" />
-          </p>
-          <h3>{ title }</h3>
-        </a>
-      </li>
-    )
-  })} */}
-{/* </ul> */}
+    
   
 <hr></hr>
 
@@ -149,11 +113,6 @@ const [weather,setWeather] = useState([])
     
       </main>
 </div>
-
-  {/* <NewForm /> */}
-
-
-
 
 <Footer />
   </div>

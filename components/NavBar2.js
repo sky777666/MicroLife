@@ -20,7 +20,7 @@ const NavBar2 = () => {
          <li className="nav-item"><Link href="/about"><a className="nav-link">About</a></Link></li>
          <li className="nav-item"> <Link href="/protozoa"><a className="nav-link">Protozoa</a></Link></li>
          <li className="nav-item"> <Link href="/algae"><a className="nav-link">Algae</a></Link></li>
-         <li className="nav-item"> <Link href="/bacterium"><a className="nav-link">Virus and Bacterium</a></Link></li>
+         <li className="nav-item"> <Link href="/virus"><a className="nav-link">Virus and Bacterium</a></Link></li>
          <li > <Link href="/fungi"><a className="nav-link">fungi</a></Link></li>
          <li className="nav-item"><Link href="/space"><a className="nav-link">Space</a></Link></li>
         <li> <Link href="/contact"><a className="nav-link">Contact</a></Link></li>

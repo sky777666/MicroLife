@@ -36,34 +36,17 @@ const About = () => {
             <ReactPlayer url="https://player.vimeo.com/external/269971860.hd.mp4?s=eae965838585cc8342bb5d5253d06a52b2415570&profile_id=174&oauth2_token_id=57447761 " controls={true} loop ={true} muted={true} autoplay={true} background={true} playing={true} width='100%' height='100%' left='20%'
             />
             </div>
-            <div>
+            <section>
+            <div style={{
+                display: "flex",
+                alignContent:"center",
+                padding:"20px",
+                flexWrap:"wrap",
+            }}>
                 <CardSmall />
-               
+                <h1> We are here to inspire a new geniration of Microbiologist. </h1>
             </div>
-            
- {/* <section style={{
-     width: '100%',
-     hieght: '800px',
-     bottom: '0%',
-     backgroundColor: 'white',
-     position: "absolute",
-     zIndex: '-1',
-     padding: '30px',
-    
- }}>
-  <div style={{
-      height: '400px',
-      width: '300px',
-      left: '40%',
-      position:'relative',
-
-  }}>
-  <img src="https://i.imgur.com/lVzBS9c.jpg" />
-  </div>
-
-  </section> */}
-
-
+            </section>
 
 
         </div>
