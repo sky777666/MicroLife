@@ -355,6 +355,7 @@ input[type=submit]:hover {
 
 /*  ----------------NAV   BAR ////////------------------ */
 
+
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 html, body {
     overflow-x: hidden;
@@ -367,11 +368,13 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 .header {
-    /* display: block; */
+  
     display: flex;
+    display: block;
     align-content: center;
     justify-content: center;
     margin: 0 auto;
+    text-align: center;
     width: 100%;
     max-width: 100%;
     box-shadow: none;
@@ -504,3 +507,5 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transform: rotate(-135deg);
     margin-top: -9px;
 }
+
+

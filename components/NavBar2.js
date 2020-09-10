@@ -11,6 +11,8 @@ const NavBar2 = () => {
     <div class="spinner diagonal part-1"></div>
     <div class="spinner horizontal"></div>
     <div class="spinner diagonal part-2"></div>
+
+    
   </label>
   <div id="sidebarMenu">
     <ul class="sidebarMenuInner">

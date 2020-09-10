@@ -29,30 +29,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/contact": [
+    "/welcome": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/contact.js"
-    ],
-    "/fungi": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/fungi.js"
-    ],
-    "/protozoa": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/protozoa.js"
-    ],
-    "/space": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/space.js"
-    ],
-    "/virus": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/virus.js"
+      "static/chunks/pages/welcome.js"
     ]
   },
   "ampFirstPages": []

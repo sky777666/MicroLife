@@ -6,6 +6,28 @@ import Layout from '../components/Layout'
 import MyCarousel from '../components/MyCarousel'
 
 const Algae = () => {
+
+
+    const [ news, setNews] = useState([])
+
+    //fetch news
+    
+    const fetchNews = () => {
+        fetch("http://hn.algolia.com/api/v1/search?query=diatoms")
+        // fetch("http://hn.algolia.com/api/v1/search?query=foo&tags=story")
+        .then(result => result.json())
+         .then(data => setNews(data.hits))
+        //  .then(data => console.log(data));
+        // .catch(error => console.log(error));
+    };
+    useEffect(() => {
+        fetchNews()
+    })
+    
+
+
+
+
     return (
         <Layout>
         <div>
@@ -67,6 +89,9 @@ const Algae = () => {
                 <div>
                 <CardSmall />
                 </div>
+               
+
+
                
 
             </section>

@@ -2,10 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/contact": "pages/contact.js",
-  "/space": "pages/space.js",
   "/": "pages/index.js",
-  "/protozoa": "pages/protozoa.js",
-  "/fungi": "pages/fungi.js",
-  "/virus": "pages/virus.js"
+  "/welcome": "pages/welcome.js"
 }
