@@ -27,6 +27,10 @@ export default function Home() {
 
   return (
 <Layout>
+      <Head>
+        <title>Create Next App</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <div style ={{
       display: "flex",
       alignContent: "center",
@@ -37,15 +41,14 @@ export default function Home() {
     }}>
     <ReactPlayer url="https://www.youtube.com/watch?v=JZjzQhFG6Ec&t=132s" controls={true} loop ={true} muted={false} autoplay={false} background={true} playing={false} width='700px' height='500px'  />
     </div>
-         <div className={styles.wrapper}>
+         {/* <div className={styles.wrapper}>
             <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet" />
-               <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main>
-     
+               <div className={styles.container}> */}
+               <main style={{
+                 textAlign:"center",
+               }}>
+                <h2>Welcome to Micro Life </h2>
+                <p>Click on the video above to get started learning about the 5 types of Microscopic life. Feel free to explore this application and learn about the wonders of this microcosmic kingdom. </p>
 
 
      <div><Card />  </div>
@@ -59,13 +62,13 @@ export default function Home() {
     />
 </div>
       </main>
-</div>
+{/* </div> */}
 <Section 
 card={card1}
 name="Props come in here "
 />
 <Footer />
-  </div>
+  {/* </div> */}
   </Layout>
 
   );
