@@ -51,7 +51,7 @@ export default function Home() {
     </section>
       <section>
               
-                <h2>There is Five Types of Micro Life. </h2>
+                <h2>There are "5" Five Types of Micro Life. </h2>
                 <div style={{
                         padding:"50px",
                         fontSize: "25px",
@@ -63,40 +63,55 @@ export default function Home() {
   display:"flex",
   justifyContent:"center",
   flexWrap:"wrap",
+  textAlign:"center"
 }}>
+
+<div style={{
+                    display:"flex",
+                    justifyContent:"center",
+                    width:"100%", paddingTop:"45px",}}> <h2>Algae and Diatoms</h2></div>
  <div style={{
   display:"flex",
-  justifyContent:"center",
-  
-}}>
-<Card3 
+  justifyContent:"center",}}>
+  <Card3 
     image={image}
     name="Diatoms / Algae "
     info="Diatoms get PROPS ad their energy from from sun. Diatoms are a type of algae but they have shells of glass"
     />
 </div>
+                  <div style={{
+                    display:"flex",
+                    justifyContent:"center",
+                    width:"100%", paddingTop:"45px",}}> <h2>Protozoa "Little Animal"</h2></div>
+
 <div style={{
   display:"flex",
-  justifyContent:"center",
-  
-}}>
+  justifyContent:"center",}}>
 <Card3 
     image={image2}
     name="Protozoa"
-    info=""
-    />
+    info=""/>
 </div>
+
+<div style={{
+                    display:"flex",
+                    justifyContent:"center",
+                    width:"100%", paddingTop:"45px",}}> <h2>Fungi</h2></div>
 <div style={{
   display:"flex",
-  justifyContent:"center",
-  
-}}>
+  justifyContent:"center",}}>
 <Card3 
     image={image3}
     name="Fungi"
     info=""
     />
 </div>
+
+
+<div style={{
+                    display:"flex",
+                    justifyContent:"center",
+                    width:"100%", paddingTop:"45px",}}> <h2>Viruses"</h2></div>
 <div style={{
   display:"flex",
   justifyContent:"center",
@@ -109,10 +124,12 @@ export default function Home() {
     />
 </div>
 <div style={{
+                    display:"flex",
+                    justifyContent:"center",
+                    width:"100%", paddingTop:"45px",}}> <h2>Bacteria</h2></div>
+<div style={{
   display:"flex",
-  justifyContent:"center",
-  
-}}>
+  justifyContent:"center",}}>
 <Card3 
     image={image5}
     name="Bacteria"
