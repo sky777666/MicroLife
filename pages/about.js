@@ -43,9 +43,17 @@ const About = () => {
                 padding:"20px",
                 flexWrap:"wrap",
             }}>
-                <CardSmall />
+                <div style={{
+                    padding:"60px"}}>
                 <h1> We are here to inspire a new geniration of Microbiologist. </h1>
+                </div>
+                <div>
+                <CardSmall />
+                </div>
             </div>
+
+               
+
             </section>
 
 

@@ -2,6 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/protozoa": "pages/protozoa.js",
-  "/about": "pages/about.js"
+  "/welcome": "pages/welcome.js",
+  "/": "pages/index.js",
+  "/space": "pages/space.js",
+  "/about": "pages/about.js",
+  "/virus": "pages/virus.js"
 }
