@@ -33,7 +33,7 @@ const About = () => {
                  opacity: '90%',
                  zIndex: '-1',
             }}>
-            <ReactPlayer url="https://player.vimeo.com/external/269971860.hd.mp4?s=eae965838585cc8342bb5d5253d06a52b2415570&profile_id=174&oauth2_token_id=57447761 " controls={true} loop ={true} muted={true} autoplay={true} background={true} playing={true} width='100%' height='100%' left='20%'
+            <ReactPlayer url="https://www.youtube.com/watch?v=nF4SUQU_7cU " controls={true} loop ={true} muted={true} autoplay={true} background={true} playing={true} width='100%' height='100%' left='20%'
             />
             </div>
             <section>

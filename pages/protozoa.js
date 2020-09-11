@@ -21,34 +21,41 @@ const Protozoa = () => {
                         <h1>How Microscopic Hunters Get Their Lunch</h1>
                         <div className={styles.playerwrapper}>
                         <ReactPlayer className={styles.reactplayer}
-                            url='https://www.youtube.com/watch?v=io731XY8fH8'width='50vw' height='50vh' />
+                            url='https://www.youtube.com/watch?v=io731XY8fH8'width='55vw' height='55vh' />
                          </div> 
                     </div>
                     <div className={styles.movie2}>
                         <h1> How we Move</h1>
                         <div className={styles.playerwrapper}>
                         <ReactPlayer className={styles.reactplayer}
-                            url='https://www.youtube.com/watch?v=bPwVOggUp4M'width='50vw' height='50vh' />
+                            url='https://www.youtube.com/watch?v=bPwVOggUp4M'width='55vw' height='55vh' />
                          </div> 
                     </div>
                     <div className={styles.movie3}>
                         <h1> Tiny Giants</h1>
                         <div className={styles.playerwrapper}>
                             <ReactPlayer className={styles.reactplayer}
-                            url='https://www.youtube.com/watch?v=PZoaKzEXzi8'width='50vw' height='50vh' />
+                            url='https://www.youtube.com/watch?v=PZoaKzEXzi8'width='55vw' height='55vh' />
                          </div> 
                     </div>
                     <div className={styles.movie4}>
                         <h1> How to Survive the Microcosmos</h1>
                         <div className={styles.playerwrapper}>
                         <ReactPlayer className={styles.reactplayer}
-                            url='https://www.youtube.com/watch?v=Sb-gf0e534k'width='50vw' height='50vh' />
+                            url='https://www.youtube.com/watch?v=Sb-gf0e534k'width='55vw' height='55vh' />
                          </div> 
                     </div>
                 </section>
+                <section>
+                    <div style={{
+                        padding:"50px",
+                        fontSize: "25px",
+                    }}>
+                <p> These are Diatoms. Diatoms are a major group of algae, specifically microalgae, found mostly in the oceans but also in some other waterways of the world. Bacteria and Algae are the main food source for protozoa. </p>
+                </div>
+                </section>
             
 <section className={styles.section1}>
-    <p> These are Diatoms. Diatoms are a major group of algae, specifically microalgae, found mostly in the oceans but also in some other waterways of the world</p>
          <div className={styles.flipcard}>
             <div className={styles.flipcardinner}>
              <div className={styles.flipcardfront}>
@@ -78,6 +85,9 @@ const Protozoa = () => {
         </div>
             <div className={styles.flipcardback}>
                 <img width="350px" height="350px" src=" https://i.pinimg.com/564x/be/17/38/be1738fd702d1c573ca9aae3ae008158.jpg" alt="Avatar" />
+            </div>
+            <div> 
+                
             </div>
         </div>
     </div>

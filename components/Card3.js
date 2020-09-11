@@ -6,9 +6,9 @@ const Card3 = (props) => {
     return (
         <div className={styles.card3}>
             <div> 
-            <img src={props.image} />
+            <img src={props.image} height="300px" width="598px" object-fit="cover"/>
             <div>
-                <h2>{props.name}</h2>
+            <h2>{props.name}</h2>
                 <p><b>Info</b>{props.info}</p>   
             </div>
             </div>
