@@ -60,11 +60,7 @@ export default function Home() {
                     </div>
         </section>
 <section style={{
-  display:"flex",
-  justifyContent:"center",
-  flexWrap:"wrap",
-  textAlign:"center"
-}}>
+  display:"flex",justifyContent:"center",flexWrap:"wrap",textAlign:"center"}}>
 
 <div style={{
                     display:"flex",
@@ -111,7 +107,7 @@ export default function Home() {
 <div style={{
                     display:"flex",
                     justifyContent:"center",
-                    width:"100%", paddingTop:"45px",}}> <h2>Viruses"</h2></div>
+                    width:"100%", paddingTop:"45px",}}> <h2>Virus</h2></div>
 <div style={{
   display:"flex",
   justifyContent:"center",

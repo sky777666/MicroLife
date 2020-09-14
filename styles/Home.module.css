@@ -44,16 +44,17 @@
 
 .footer {
   
-  position: "absolute";
+  /* position: "absolute"; */
   bottom: 0;
   width:"100%";
   color: white;
-  padding-top: 25px;
+  padding: 25px;
   border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 2.5rem;   
+  /* height: 2.5rem;    */
+  text-align: center;
 }
 .reactLogo{
   width:10px;
