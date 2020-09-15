@@ -23,15 +23,7 @@ export default function ContactUs() {
   return (
     
     <div>
-
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-        <script src='https://www.google.com/recaptcha/api.js'></script>
-        
-      </Head>
-      
-    <h1> Contact us ! </h1>
+        <h1> Contact us ! </h1>
     <form className="contact-form" onSubmit={sendEmail}>
       <input type="hidden" name="contact_number" />
       <label>Name</label>

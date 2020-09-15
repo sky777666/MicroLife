@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 import NasaPhoto from '../components/NasaPhoto'
 import Layout from '../components/Layout'
 import Footer from '../components/Footer'
-
+import Iframe from 'react-iframe'
 
 const Space = () => {
 
@@ -95,7 +95,9 @@ const Space = () => {
     fungi. Study of these sites by NASA have shown this white growth
     growing or even shrinking if exposed to direct sunlight over a period of a few weeks of study by the rover. </p>
   </div>
-  
+  <section>
+  <iframe src='https://mars.nasa.gov/layout/embed/image/insightweather/' width='800' height='530'  scrolling='no' frameborder='0'></iframe>
+  </section>
    </div>
    
     </Layout>

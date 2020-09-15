@@ -35,14 +35,14 @@ justifyContent:"center",
                         <span></span>
                         <span></span>
                         <div className={styles.content}>
-                        <h2>Welcome to: </h2>
+                       <h2>Welcome to: </h2>   
                         <h3>Micro Life</h3>
                         <br></br>
                         <h4>Login or Sign up</h4>
                         <h4> See the MicroCosm today. </h4>
                         </div>
                 </div>
-                </div>
+                </div>   
             </div> 
         </section> 
     </div>

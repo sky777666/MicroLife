@@ -14,6 +14,11 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
@@ -24,15 +29,45 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
+    "/about": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/about.js"
+    ],
+    "/algae": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/algae.js"
+    ],
+    "/contact": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/contact.js"
+    ],
     "/fungi": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/fungi.js"
     ],
+    "/protozoa": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/protozoa.js"
+    ],
     "/space": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/space.js"
+    ],
+    "/virus": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/virus.js"
+    ],
+    "/welcome": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/welcome.js"
     ]
   },
   "ampFirstPages": []

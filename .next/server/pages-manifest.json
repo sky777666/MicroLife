@@ -2,6 +2,13 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/space": "pages/space.js",
+  "/contact": "pages/contact.js",
+  "/": "pages/index.js",
+  "/protozoa": "pages/protozoa.js",
+  "/about": "pages/about.js",
+  "/algae": "pages/algae.js",
+  "/virus": "pages/virus.js",
   "/fungi": "pages/fungi.js",
-  "/space": "pages/space.js"
+  "/welcome": "pages/welcome.js"
 }
