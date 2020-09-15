@@ -5,9 +5,13 @@ import Footer from '../components/Footer';
 import Layout from '../components/Layout'
 import MyCarousel from '../components/MyCarousel'
 import styles from '../styles/Home.module.css'
-
+import Head from 'next/head'
 
 const Algae = () => {
+
+    useEffect(() => {
+    document.body.style.backgroundColor = '#4a5f6b'
+    })
 
 
     const [ news, setNews] = useState([])
@@ -30,6 +34,19 @@ const Algae = () => {
 
     return (
         <Layout>
+
+        <Head>
+        <title>Micro Life | Learn about Microscopic Life</title>
+        <link rel="icon" href="/favicon.ico" />
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <meta charset="UTF-8" />
+         <meta name="description" content="Microscopic Life, learn about microscopic life on earth and on microbes on Mars." /> 
+         <meta name="keywords" content="Germs, germ, teach kids microbiology, protozoa, virus, bacteria, microcosm, microbiology, diatoms, life on mars, mars life, microscopic life," />
+         <meta name="author" content="Luke Myers" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </Head>
+
+
         <div>
             <section style={{width: "100%", height:"100vh",display:"flex",justifyContent:"center",backgroundColor: "blue",}}>
                 <div style={{ height:"100vh",width: "100%", }}>

@@ -18,7 +18,7 @@ const NavBar2 = () => {
     <ul class="sidebarMenuInner">
     <ul className="navbar-nav ml-auto">
          <li className="nav-item"><Link href="/"><a className="nav-link">Home</a></Link> </li>
-         <li className="nav-item"> <Link href="/welcome"><a className="nav-link">Welcome</a></Link></li>
+         {/* <li className="nav-item"> <Link href="/welcome"><a className="nav-link">Welcome</a></Link></li> */}
          <li className="nav-item"><Link href="/about"><a className="nav-link">About</a></Link></li>
          <li className="nav-item"> <Link href="/protozoa"><a className="nav-link">Protozoa</a></Link></li>
          <li className="nav-item"> <Link href="/algae"><a className="nav-link">Algae</a></Link></li>

@@ -31,14 +31,50 @@ export default function Home() {
   return (
 <Layout>
       <Head>
-        <title>Create Next App</title>
+        <title>Micro Life | Learn about Microscopic Life</title>
         <link rel="icon" href="/favicon.ico" />
         <script src='https://www.google.com/recaptcha/api.js'></script>
-      </Head>
+        <meta charset="UTF-8" />
+      <meta name="description" content="Microscopic Life, learn about microscopic life on earth and on microbes on Mars." /> 
+      <meta name="keywords" content="Germs, germ, teach kids microbiology, protozoa, virus, bacteria, microcosm, microbiology, diatoms, life on mars, mars life, microscopic life," />
+      <meta name="author" content="Luke Myers" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ </Head>
+
       <main style={{textAlign:"center",}}>
+       
+     <section>
+        <div style={{display:"flex",justifyContent:"center",}}>
+          <div className={styles.body}>
+        <section>
+            <div className={styles.container}>
+             <div className={styles.backgroundImg}> 
+                <div className={styles.box}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div className={styles.content}>
+                       <h2>Welcome to: </h2>   
+                     <h3>Micro Life</h3>
+                        <br></br>
+                        <h4>Login or Sign up</h4>
+                        <h4> See the MicroCosm today. </h4>
+                        </div>
+                </div>
+                </div>  
+            </div> 
+        </section> 
+         </div>
+        </div>
+      </section>
+
+
+
+
       <section>
        <div style ={{display: "flex",alignContent: "center",position: "relative",left: '15%',width: "100%",padding:"70px",}}>
-    <ReactPlayer url="https://www.youtube.com/watch?v=JZjzQhFG6Ec&t=132s" controls={true} loop ={true} muted={false} autoplay={false} background={true} playing={false} width='60vw' height='550px'  />
+    <ReactPlayer url="https://www.youtube.com/watch?v=JZjzQhFG6Ec&t=132s" controls={true} loop ={true} muted={false} autoplay={false} background={true} playing={false} width='65vw' height='600px'  />
     </div>
     </section>
       <section>

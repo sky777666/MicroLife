@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import ContactUs from '../components/ContactUs'
 import styles from '../styles/Home.module.css'
 import{ init } from 'emailjs-com';
-
+import Head from 'next/head'
 
 const Contact = () => {
     const router = useRouter();
@@ -42,6 +42,19 @@ var data = {
 
     return (
         <Layout>
+
+        <Head>
+        <title>Micro Life | Learn about Microscopic Life</title>
+        <link rel="icon" href="/favicon.ico" />
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <meta charset="UTF-8" />
+         <meta name="description" content="Microscopic Life, learn about microscopic life on earth and on microbes on Mars." /> 
+         <meta name="keywords" content="Germs, germ, teach kids microbiology, protozoa, virus, bacteria, microcosm, microbiology, diatoms, life on mars, mars life, microscopic life," />
+         <meta name="author" content="Luke Myers" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </Head>
+
+
         <div className={styles.contactForm}>
             <ContactUs />
         </div>
