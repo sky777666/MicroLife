@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/welcome": "pages/welcome.js",
-  "/space": "pages/space.js"
+  "/space": "pages/space.js",
+  "/algae": "pages/algae.js"
 }

@@ -33,13 +33,11 @@ const Virus = () => {
             {/* <Slide direction={"left"} delay={1000} > */}
             <div class="container2" id="card2">
                 <div class="text">
-                    <h1>MicroCosm</h1>
-                    <h4>Fullstack Server Side Rendering with Next.js the most most advanced React framework. </h4>
-                     <h4>This application was created tThis application was created to inspire a new generation of Microbiologist 
-                         and get kids involved in the wonders of the Microscopic world around them. 
-                        Some of the technologies it includes are HTML, CSS, React, Next.js, JavaScript, 
-                        React Animations, SQLite DB, and Prisma. </h4>
-                         <button>Play Here</button>
+                    <h1>What is a Germ ? </h1>
+                    <h4>In biology, a pathogen in the oldest and broadest sense, is anything that 
+                        can produce disease. A pathogen may also be referred to as an infectious agent, 
+                        or simply a germ. The term pathogen came into use in the 1880s. </h4>
+                       
                 
                  </div>
             </div>

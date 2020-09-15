@@ -87,7 +87,7 @@ const Space = () => {
      the Mars Rover Curiosity after 1038 Martian days. An alternate explanation is contamination of mold from earth or dust and dirt 
      accumulated selectively in this area of the rover. Photo NASA/JPL.</p>
      </div>
-     <img src="https://lh3.googleusercontent.com/proxy/Cc9YQWjJB0eYrECj2299YXD-1512SZ6etXqROs70Md7OkSqYsltr4R8U73ZLmNJLfs5ZIEJPrCd54k7AJQuAPUR4TKN5u-U1lQ" height="30vh" width="700vw"/>
+     <img src=" https://lh3.googleusercontent.com/proxy/j3VUb2nKTKp--PQ1zb_YqjTAE2S4yWIrAkLuD_MzVO0YKSow9H7TKMX0jc18Figfvv0zT4-LfAe7EO7597CnWLeTL8LK8zKEIg" height="30vh" width="700vw"/>
      <div style={{
   padding:"30px",}}>
   <p>At last six separate specimens have been documented by NASA in Rover photo's. These white growths are unknown. 
