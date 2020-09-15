@@ -8,9 +8,11 @@ const Footer = () => {
             <footer className={styles.footer}>
       
           &#169; Luke Myers 2020{' '}
-  
-          {/* <div className={styles.reactLogo}><span class="react-logo"><span class="nucleo"></span></span></div>             */}
-   
+{/*   
+          <div className={styles.reactLogo}>
+          <div class="react-logo">
+          <div class="nucleo"></div>   </div> </div>         
+    */}
       </footer>
     </div>
    

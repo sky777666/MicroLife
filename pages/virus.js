@@ -30,7 +30,7 @@ const Virus = () => {
                      </div>
                  </div>
              </Fade>
-            <Slide direction={"left"} delay={1000} >
+            {/* <Slide direction={"left"} delay={1000} > */}
             <div class="container2" id="card2">
                 <div class="text">
                     <h1>MicroCosm</h1>
@@ -43,7 +43,7 @@ const Virus = () => {
                 
                  </div>
             </div>
-             </Slide>
+             {/* </Slide> */}
      </div>
      </Layout>
         
