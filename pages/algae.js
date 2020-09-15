@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import ReactPlayer from 'react-player/'
-import Card from '../components/Card'
 import Footer from '../components/Footer';
 import Layout from '../components/Layout'
 import MyCarousel from '../components/MyCarousel'
@@ -56,10 +55,17 @@ const Algae = () => {
                 </div>
             </section>
              <section style={{width: "100%", height:"80vh",display:"flex",justifyContent:"center",backgroundColor: "gray", }}>
-                <div> <Card/> 
+               
+                <div className={styles.cardArea}>
+                 <div className={styles.upSplash2}>
+                <img src="https://source.unsplash.com/400x400/?microscope" />
+                </div>
+
+
                 <h1 style={{ padding:"45px", textAlign:"center"}}>Microscopes allow us to see into the microscopic world </h1>
                 </div>
              </section>
+
             <section style={{ width: "100%",height:"90vh",display:"flex",justifyContent:"center", backgroundColor: "green",}}>
                 <div style={{ display:"flex", height:"220vh",width:"110vh", alignContent:"center",  objectFit:"cover",overflow:"hidden", padding:"10px", }}>
                 <MyCarousel />
