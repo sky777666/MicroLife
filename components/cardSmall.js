@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../styles/Home.module.css'
 import { Fade } from "react-awesome-reveal";
 
-const CardSmall = (props) => {
+const CardSmall = () => {
     return (
        
    <div className={styles.cardSmall}>
@@ -20,7 +20,7 @@ const CardSmall = (props) => {
 {/* ---------------------------------------------------------- */}
 
         <Fade direction={"left"} delay={1000} fraction={0}> 
-        <div> <img src={props.image} height="400px" width="300px"/></div>
+        <div> <img src="https://i.imgur.com/lVzBS9c.jpg" height="400px" width="300px"/></div>
         </Fade>
      </div>
     );

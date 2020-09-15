@@ -61,10 +61,10 @@ const Fungi = () => {
             
                 </div>
                     <div className={styles.movie2}>
-                        <h1>Mycorrhizal Fungi</h1>
+                        <h1 style={{padding:"40px"}}>Mycorrhizal Fungi</h1>
                         <div className={styles.playerwrapper}>
                         <ReactPlayer className={styles.reactplayer}
-                            url='https://www.youtube.com/watch?v=0oyqPZJj-2w'width='50vw' height='50vh' />
+                            url='https://www.youtube.com/watch?v=0oyqPZJj-2w'width='50vw' height='80vh' />
                          </div> 
                          </div>
                      </div>

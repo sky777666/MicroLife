@@ -1,14 +1,14 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import { Fade, Slide } from "react-awesome-reveal";
-
+import { Fade,  } from "react-awesome-reveal";
+import styles from '../styles/Home.module.css'
 
 const Virus = () => {
     return (
         
     
         <Layout>
-            <div class="section">
+            <div class="sectionv">
                 <Fade direction={"left"} delay={1000} >
                     <div class="container" id="card1">
                         <img src="https://www.thoughtco.com/thmb/-V5v69KMk-rN1ADWAR19Cklszt0=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/tongue_bacteria-57b636455f9b58cdfde3ff5a.jpg" alt="" />
@@ -31,15 +31,15 @@ const Virus = () => {
                  </div>
              </Fade>
             {/* <Slide direction={"left"} delay={1000} > */}
+            <div className={styles.box2}>
             <div class="container2" id="card2">
                 <div class="text">
                     <h1>What is a Germ ? </h1>
                     <h4>In biology, a pathogen in the oldest and broadest sense, is anything that 
                         can produce disease. A pathogen may also be referred to as an infectious agent, 
                         or simply a germ. The term pathogen came into use in the 1880s. </h4>
-                       
-                
                  </div>
+            </div>
             </div>
              {/* </Slide> */}
      </div>

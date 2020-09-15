@@ -21,7 +21,7 @@ const MyCarousel = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://1.bp.blogspot.com/-MenSuQkFeaI/WVOUS0eMFmI/AAAAAAAAALA/JehplmYqjU0Yf8AeyiQMRGM-6aokgc_xgCLcBGAs/s1600/Fun%2Bfact%2Bdiatoms.png" width="500px" height="500px"
+          src="https://i.pinimg.com/564x/8b/be/35/8bbe353717cb3499184902fe9ef3ea92.jpg" width="500px" height="500px"
           alt="First slide"
         />
         <Carousel.Caption>

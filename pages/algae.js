@@ -20,15 +20,13 @@ const Algae = () => {
         .then(result => result.json())
          .then(data => setNews(data.hits))
         //  .then(data => console.log(data));
-        // .catch(error => console.log(error));
+      .catch(error => console.log(error));
     };
+
     useEffect(() => {
         fetchNews()
     })
     
-
-
-
 
     return (
         <Layout>
@@ -55,10 +53,10 @@ const Algae = () => {
          <div className={styles.flipcard}>
             <div className={styles.flipcardinner}>
              <div className={styles.flipcardfront}>
-                 <img width="350px" height="350px" src="https://i.pinimg.com/564x/59/58/ed/5958edb550c3d09c2880ccbba28b617f.jpg" alt="Avatar" />
+                 <img width="350px" height="350px" src="https://i.pinimg.com/236x/e9/7f/dd/e97fdd0ba8ae92864f7854cf8fa2f49e.jpg " alt="Avatar" />
                      </div>
                           <div className={styles.flipcardback}>
-                             <img width="350px" height="350px" src="https://i.pinimg.com/564x/21/4c/30/214c30d4d8788d0a67831c8abe94a41a.jpg" alt="Avatar" />
+                             <img width="350px" height="350px" src="https://i.pinimg.com/236x/80/5f/cb/805fcb2f373ae6788dc727bc8f91b92f.jpg" alt="Avatar" />
                              {/* <StarRating /> */}
                          </div>
                     </div>
@@ -66,10 +64,10 @@ const Algae = () => {
                 <div className={styles.flipcard}>
             <div className={styles.flipcardinner}>
              <div className={styles.flipcardfront}>
-                         <img width="350px" height="350px" src="https://i.pinimg.com/564x/84/e8/09/84e80994ac7c5964f2c58e5fcf8a0974.jpg " alt="Avatar" />
+                         <img width="350px" height="350px" src="https://i.pinimg.com/236x/56/47/4a/56474a101fa0c79d3b0dd91a5c1d34f4.jpg" alt="Avatar" />
                             </div>
                                  <div className={styles.flipcardback}>
-                                <img width="350px" height="350px" src=" https://i.pinimg.com/564x/24/a8/68/24a868f6ef98dbcb570016f8364ec076.jpg" alt="Avatar" />
+                                <img width="350px" height="350px" src=" https://i.pinimg.com/236x/af/3b/30/af3b3081a0625fd0dd45e4212a7db299.jpg" alt="Avatar" />
                                 {/* <StarRating /> */}
                                 </div>
                             </div>
@@ -80,17 +78,22 @@ const Algae = () => {
     <img width="350px" height="350px" src=" https://i.pinimg.com/564x/4c/99/46/4c9946dce3e83c88b301422b7dc92248.jpg" alt="Avatar" />
         </div>
             <div className={styles.flipcardback}>
-                <img width="350px" height="350px" src=" https://i.pinimg.com/564x/be/17/38/be1738fd702d1c573ca9aae3ae008158.jpg" alt="Avatar" />
+                <img width="350px" height="350px" src="https://i.pinimg.com/236x/eb/0d/ca/eb0dcab495286e6d9629d2d8b5092523.jpg" alt="Avatar" />
             </div>
             <div> 
                 
             </div>
         </div>
-    </div>
-    <h1 style={{ padding:"45px", textAlign:"center"}}> These are examples of Diatoms. They are a type a sea Algae. They make hard glass like structures and get their energy from sun light. </h1>
-</section> 
+ </div>
+      <h1 style={{ padding:"45px", textAlign:"center"}}> These are examples of Diatoms. They are a type a sea Algae. They make hard glass like structures and get their energy from sun light. </h1>
+    </section> 
             </section>
-
+                <section>
+                 <div>
+                 <h2 style={{ padding:"45px", textAlign:"center"}}>These are news headlines about Diatoms from around the world.</h2>
+                  {news.map((n, i) => ( <p key={i}> {n.title} </p> ))}
+                 </div>
+                </section>
         </div>
         </Layout>
     );

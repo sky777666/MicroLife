@@ -21,6 +21,24 @@ body {
   width: 1300px;
   height:1300px;
   background-color: #00d8ff;
+  padding-top: 120px;
+}
+
+.sectionv {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  display: flex;
+ /* justify-content: space-between;  */
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  width: fit-content; 
+  width: 1300px;
+  height:1300px;
+  background-color: #00d8ff;
+  padding-top: 120px;
 }
 
 img {
@@ -48,11 +66,12 @@ P{
   overflow: hidden;
   margin: 30px;
   display: flex;
+ 
 }
 
 .container2 {
   width: 500px;
-  height: 500px;
+  height: 370px;
   border-radius: 75px;
   margin: 30px;
   display: flex;
@@ -176,6 +195,7 @@ background-color: lightseagreen;
   background-color: black;
   transform: translateX(-100%);
   opacity: 1;
+  
 }
 
 .container#card3:hover .caption {

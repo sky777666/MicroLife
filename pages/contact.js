@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import  { useRouter } from 'next/router'
-import Navbar from '../components/navbar'
+import email from 'emailjs-com';
 import Layout from '../components/Layout'
 import ContactUs from '../components/ContactUs'
 import styles from '../styles/Home.module.css'
