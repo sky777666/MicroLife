@@ -54,15 +54,15 @@ const Algae = () => {
                     </div>
                 </div>
             </section>
-             <section style={{width: "100%", height:"80vh",display:"flex",justifyContent:"center",backgroundColor: "gray", }}>
-               
-                <div className={styles.cardArea}>
+             <section style={{width: "100%", height:"80vh",display:"flex",justifyContent:"center",backgroundColor: "gray", textAlign:"center", alignContent:"center"}}>
+             <div style={{ height:"100vh",width: "100%", }}>
+                {/* <div className={styles.cardArea}> */}
                  <div className={styles.upSplash2}>
                 <img src="https://source.unsplash.com/400x400/?microscope" />
                 </div>
 
-
-                <h1 style={{ padding:"45px", textAlign:"center"}}>Microscopes allow us to see into the microscopic world </h1>
+                    <div> <h1 style={{ padding:"30px"}}>Microscopes allow us to see into the microscopic world </h1></div>
+               
                 </div>
              </section>
 
