@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import MyCarousel from '../components/MyCarousel'
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
+// import Effects from '../components/Effects';
 
 const Algae = () => {
 
@@ -118,6 +119,9 @@ const Algae = () => {
                  </div>
                 </section>
         </div>
+
+        {/* <Effects /> */}
+
         </Layout>
     );
 };
