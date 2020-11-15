@@ -58,7 +58,7 @@ const About = () => {
             }}>
                 <div style={{
                     padding:"60px"}}>
-                <h1> We are here to inspire a new geniration of Microbiologist. </h1>
+                <h1> We are here to inspire a new generation of Microbiologist. </h1>
                 </div>
                 <div>
                 <CardSmall />

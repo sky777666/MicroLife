@@ -7,6 +7,8 @@ function Effects() {
 const [answer, setAswer] = useState("Yes")
 const [count, setCount] = useState(0)
 const [ color, setColor] = useState("")
+
+
 function increment() {
     setCount(prevCount => prevCount +1 )
 }
@@ -16,9 +18,6 @@ function decrement() {
 }
 
 
-function updateColor() {
-    set
-}
 
 useEffect(() => {
 setColor(randomcolor())

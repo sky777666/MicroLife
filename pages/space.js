@@ -86,12 +86,12 @@ const Space = () => {
 
     <div style={{
   padding:"25px",}}>
-      <img src="http://cosmology.com/images/Sol528530.jpg " /> 
+      <img src=""/> 
     </div>
     <p>Figure 17: Sol 528 (left) Sol 530. Photos of the same outcrop, just two days apart, demonstrates that the specimens have decreased in size and have all but disappeared (photo credit, NASA.</p>
       <div style={{
   padding:"25px",}}>
-<img src="https://journalofastrobiology.com/images/FungiEatCuriosityDeckSol51v1089.jpg" height="300px" width="350px"/>
+<img src="" height="300px" width="350px"/>
   </div>
   <div style={{
   padding:"30px",}}>
@@ -99,7 +99,7 @@ const Space = () => {
      the Mars Rover Curiosity after 1038 Martian days. An alternate explanation is contamination of mold from earth or dust and dirt 
      accumulated selectively in this area of the rover. Photo NASA/JPL.</p>
      </div>
-     <img src=" https://lh3.googleusercontent.com/proxy/j3VUb2nKTKp--PQ1zb_YqjTAE2S4yWIrAkLuD_MzVO0YKSow9H7TKMX0jc18Figfvv0zT4-LfAe7EO7597CnWLeTL8LK8zKEIg" height="30vh" width="700vw"/>
+     <img src="" height="30vh" width="700vw"/>
      <div style={{
   padding:"30px",}}>
   <p>At last six separate specimens have been documented by NASA in Rover photo's. These white growths are unknown. 

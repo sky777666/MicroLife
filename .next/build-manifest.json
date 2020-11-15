@@ -24,10 +24,15 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/algae": [
+    "/about": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/algae.js"
+      "static/chunks/pages/about.js"
+    ],
+    "/space": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/space.js"
     ]
   },
   "ampFirstPages": []
